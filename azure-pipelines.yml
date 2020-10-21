@@ -12,6 +12,9 @@ trigger:
   branches:
     include:
     - refs/heads/*
+  paths:
+    exclude:
+    - Examples
 
 schedules:
   - cron: "0 16 * * 4"
